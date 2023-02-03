@@ -1,0 +1,20 @@
+﻿<Window x:Class="observerGui.CurrentConditionsDisplay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:observerGui"
+        mc:Ignorable="d"
+        Title="CurrentConditionsDisplay" Height="300" Width="230"  Left="700">
+    <Grid>
+        <Label Content="Температура" HorizontalAlignment="Left" Height="28" Margin="7,39,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="Label1" Content="нет данных" HorizontalAlignment="Left" Height="28" Margin="125,39,0,0" VerticalAlignment="Top" Width="74"/>
+        <CheckBox Content="Подписаться" HorizontalAlignment="Left" Height="17" Margin="10,10,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.165,-5.002" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked"/>
+        <Label Content="Давление" HorizontalAlignment="Left" Height="28" Margin="7,95,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Влажность" HorizontalAlignment="Left" Height="28" Margin="7,67,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label x:Name="Label2" Content="нет данных" HorizontalAlignment="Left" Height="28" Margin="125,67,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label x:Name="Label3" Content="нет данных" HorizontalAlignment="Left" Height="28" Margin="125,95,0,0" VerticalAlignment="Top" Width="74"/>
+
+
+    </Grid>
+</Window>
